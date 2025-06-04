@@ -2,7 +2,7 @@
 ```mermaid
 graph TD
 subgraph Home["At home"]
-Prepare["0\. Prepare"] --> R["R Packages"] & Requirements & Submit["Submit your ideas"]
+Prepare["0\. Prepare"] --> R["R Packages"] & Dependencies & Submit["Submit your ideas"]
 end
 
 subgraph Day1["Day 1. The basics"]
@@ -21,15 +21,8 @@ Home --> Day1 --> Day2
 ### 0. Prepare
 JASP builds on top of a number of stepping stones, both technical and intellectual. In order to keep the hackathon feasible, we'll need to ask our attendants to come prepared. Specifically, we'll need:
 #### Experience with R
-Our attendants will need at least intermediate experience in R. Being able to write a custom function is a must. 
-
-Consider asking them to do this exercise when they apply for the hackathon:
-
-> [!check] Exercise
-> Write a **function** that takes the radius ($r$) of a circle and returns its area. ($A$). Call it `circle_area`.
-> 
-> Hint: $A = \pi r^2$.
-#### Requirements
+We'll request our attendants to have either **written** or at least **identified** a package they want to include in JASP.
+#### Dependencies
 Something we learned from the interaction with our volunteers is that JASP often requires its dependencies to be very up-to-date. Most of these updates are automatic, but can be very slow. We should highly encourage our attendants to update their systems beforehand.
 
 Unfortunately, this can be challenging. We don't have an exhaustive list of dependencies, plus the variety of operating systems _de facto_ multiplies this complexity by ~3 (Linux, Mac, Windows, ...). A tentative list would be:
@@ -72,3 +65,4 @@ The most important session of the hackathon. The attendants will put together al
 Point them to the contribution system. If they don't know `git` and `GitHub`, point them to external materials.
 
 By then, I hope the contribution system to be as self-explanatory as possible. It is the less we can do for our volunteer contributors!
+
