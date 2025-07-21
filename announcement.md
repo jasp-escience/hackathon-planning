@@ -14,6 +14,12 @@ Under the hood, all JASP modules are based on R packages. You can think of a JAS
 
 ![](https://github.com/jasp-escience/jasp-desktop/raw/development/Docs/development/img/puzzle.svg)
 
+## What are we going to do in this hackathon?
+The attendants will bring their own idea for a module.
+Our experienced JASP developers will guide them through the whole process to turn it into a working JASP module.
+
+In the process we'll learn not only about JASP and R, but also about graphical user interfaces and the Qt language.
+
 ## Agenda
 ### Day 1: the basics
 1. Welcome and introduction
